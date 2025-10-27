@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Google Sans Code", monospace;
+}
+
+body{
+    background-color:rgb(76, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+
+header{
+    width: 95%;
+    height: 70px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    position: sticky;
+    top: 50px;
+    border-radius: 43px;
+    background: #ff8c00;
+    box-shadow:  21px 21px 42px #000b0b,
+             -21px -21px 42px #faffff;
+}
+
+header img{
+    margin: left 20px;
+    height: 50px;
+}
+
+
+
+header ul{
+    display: flex;
+}
+
+header li{
+    margin: 20px;
+    list-style: none;
+}
+header a{
+    text-decoration: none;
+    color: rgb(13, 0, 0);
+}
+
+header a:hover{
+    border: 1px;
+    background-color: bisque;
+    padding: 10px 30px;
+    color: #4f1313;
+    border-radius: 20px;
+    transition: all ease-in-out;
+    transform: scaleX(1.1);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px; /* space between image and text */
+    padding: 50px;
+}
+
+.col img {
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+/* From Uiverse.io by dovatgabriel */ 
+.buttonDownload {
+ display: inline-block;
+ position: relative;
+ padding: 10px 25px;
+ background-color: #4CC713;
+ color: white;
+ font-family: sans-serif;
+ text-decoration: none;
+ font-size: 0.9em;
+ text-align: center;
+ text-indent: 15px;
+ border: none;
+}
+
+.buttonDownload:hover {
+ background-color: #45a21a;
+ color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+ content: ' ';
+ display: block;
+ position: absolute;
+ left: 15px;
+ top: 52%;
+}
+
+.buttonDownload:before {
+ width: 10px;
+ height: 2px;
+ border-style: solid;
+ border-width: 0 2px 2px;
+}
+
+.buttonDownload:after {
+ width: 0;
+ height: 0;
+ margin-left: 3px;
+ margin-top: -7px;
+ border-style: solid;
+ border-width: 4px 4px 0 4px;
+ border-color: transparent;
+ border-top-color: inherit;
+ animation: downloadArrow 1s linear infinite;
+ animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+ border-color: #cdefbd;
+}
+
+.buttonDownload:hover:after {
+ border-top-color: #cdefbd;
+ animation-play-state: running;
+}
+
+@keyframes downloadArrow {
+ 0% {
+  margin-top: -7px;
+  opacity: 1;
+ }
+
+ 0.001% {
+  margin-top: -15px;
+  opacity: 0.4;
+ }
+
+ 50% {
+  opacity: 1;
+ }
+
+ 100% {
+  margin-top: 0;
+  opacity: 0.4;
+ }
+}
+
+h1,h3{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    padding: 70px;
+}
+section{
+    height: 100vh;
+    width: 80%;
+}
+
+.skills-section {
+  width: 100%;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.skills-section h1 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+  transition: transform 0.5s ease-in-out;
+}
+
+.card:hover {
+  border-bottom: 5px solid violet;
+  transform: scale(1.05);
+}
+
+.card .header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.card .body {
+  padding: 20px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  width: 100px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.skill-level {
+  flex: 1;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.skill-percent {
+  background-color: #333;
+  height: 100%;
+}
+
+.skill-percent-number {
+  width: 40px;
+  text-align: right;
+  font-size: 14px;
+}
+
+/* Optional hover color */
+.html:hover {
+  color: blue;
+}
+.css:hover {
+  color: purple;
+}
+.js:hover {
+  color: red;
+}
+z

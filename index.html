@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="https://img.freepik.com/premium-psd/software-developer-3d-icon-with-sleek-design-isolated-white-background-codingrelated-visuals_495814-13339.jpg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" crossorigin="anonymous" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://png.pngtree.com/png-clipart/20231109/original/pngtree-programmer-it-developer-png-image_13520483.png" alt="Logo">
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Contact">Contact</a></li>   
+    </ul>
+  </header>
+
+  <section>
+    <div class="section-box row">
+      <div class="col">
+        <img src="https://www.infomazeelite.com/wp-content/uploads/2022/12/MERN-Stack-Development.png" alt="MERN">
+      </div>
+      <div class="col">
+        <h2>Hi there, I am Athul Krishna EP</h2>
+        <h1><span>MEA(R)N</span> STACK DEVELOPER</h1>
+        <a href="./Athul_resume.pdf" target="_blank" download="Athul_resume.pdf">
+          <button class="buttonDownload">Download</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="About">
+    <div class="section-box">
+      <h1>About me</h1>
+      <div class="col">
+        <h3>Athul Krishna EP</h3>
+        <p>Hello! I'm <strong>Athul Krishna EP</strong>, a passionate <strong>MEARN Stack Developer</strong> with a love for building responsive and interactive web applications. I enjoy turning complex problems into simple, beautiful, and intuitive designs.
+        With a strong foundation in <strong>MongoDB, Express.js, Angular/React, and Node.js</strong>, I continuously strive to learn and implement new technologies. I also have an eye for UI design and enjoy making websites that look as good as they work.
+        In my free time, I like to sketch, explore new tech tools, and play games. I’m currently learning more about animations and advanced JavaScript frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-section" id="skills">
+    <div class="section-box">
+      <h1>Skills</h1>
+      <div class="skills-wrapper">
+        <div class="card">
+          <div class="header">My Skills</div>
+          <div class="body">
+            <div class="skill">
+              <div class="skill-name html">HTML</div>
+              <div class="skill-level">
+                <div style="width: 90%" class="skill-percent"></div>
+              </div>
+              <div class="skill-percent-number">90%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name css">CSS</div>
+              <div class="skill-level">
+                <div style="width: 80%" class="skill-percent"></div>
+              </div>
+              <div class="skill-percent-number">80%</div>
+            </div>
+            <div class="skill">
+              <div class="skill-name js">JavaScript</div>
+              <div class="skill-level">
+                <div style="width: 75%" class="skill-percent"></div>
+              </div>
+              <div class="skill-percent-number">75%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-box">
+      <h1>My Projects</h1>
+      <div class="projects-container">
+        <div class="project-card">
+          <h2>DeskTrack</h2>
+          <p>Website to predict employee attrition and track performance. Built using Python, MySQL, HTML & CSS with a user-friendly interface for ML predictions.</p>
+        </div>
+        <div class="project-card">
+          <h2>MEDIREACH</h2>
+          <p>IoT-based rural telemedicine system. Real-time vital monitoring using MQTT, Django, and sensors. Enables remote consultation and health tracking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="Services">
+  <div class="section-box">
+    <h1>Services</h1>
+    <div class="projects-container">
+
+      <div class="project-card">
+        <h2><i class="fas fa-code"></i> Full Stack Web Development</h2>
+        <p>I build complete, dynamic web applications using the MEARN stack — MongoDB, Express.js, Angular/React, and Node.js. Whether it's a personal project or a scalable product, I deliver clean, efficient code and modern architecture.</p>
+      </div>
+
+      <div class="project-card">
+        <h2><i class="fas fa-laptop"></i> Responsive Website Design</h2>
+        <p>I design visually appealing, mobile-friendly websites using HTML, CSS, and JavaScript. Every site is optimized for performance, SEO, and accessibility to ensure a seamless experience on all devices.</p>
+      </div>
+
+      <div class="project-card">
+        <h2><i class="fas fa-user-tie"></i> Personal Portfolio & Resume Sites</h2>
+        <p>Need a stunning online presence? I create custom portfolio or resume websites tailored to individuals, professionals, and students — perfect for job applications, freelancing, or showcasing your skills.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <section id="Contact">
+    <div class="section-box">
+      <h1>Contact Me</h1>
+      <div class="contact-container">
+        <form class="contact-form">
+          <input type="text" placeholder=" Enter your name" required>
+          <input type="email" placeholder=" Enter your email" required>
+          <textarea rows="5" placeholder=" Your message" required></textarea>
+          <button type="submit"> Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
